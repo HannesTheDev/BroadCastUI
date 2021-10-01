@@ -3,6 +3,7 @@ main: HannesTheDev\BroadCastUI\Main
 version: 1.0.0
 api: 3.0.0
 author: HannesTheDev
+depend: FormAPI
 
 commands:
   broadcast:
