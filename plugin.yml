@@ -1,0 +1,16 @@
+name: BroadCastUI
+main: HannesTheDev\BroadCastUI\Main
+version: 1.0.0
+api: 3.0.0
+author: HannesTheDev
+
+commands:
+  broadcast:
+    aliases: ["bc"]
+    description: "Sending a broadcast message"
+    permission: "broadcastui.broadcast.cmd"
+
+permissions:
+  broadcastui.broadcast.cmd:
+    description: "/broadcast permission"
+    default: op
